@@ -35,7 +35,7 @@ elem = driver.find_element_by_id("edit-street-address") #find the input form
 ## for fact check, add up the population numbers and see if it's around 330m (it is)
 
 ## make sure the path to the excel file is correct
-county_df = pd.read_excel('./Desktop/county_population.xlsx')
+county_df = pd.read_excel('./county_population.xlsx')
 county_df.head()
 county_list = county_df['GEO.display-label'].tolist()
 
